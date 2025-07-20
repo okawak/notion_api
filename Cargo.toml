@@ -1,9 +1,9 @@
 [package]
 name = "notion_api"
-version.workspace = true
-authors.workspace = true
-description.workspace = true
-edition.workspace = true
+version = "0.1.0"
+authors = ["okawak"]
+description = "Get page information using Notion API"
+edition = "2024"
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
